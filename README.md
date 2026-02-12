@@ -76,6 +76,15 @@ Durante mi proceso formativo he desarrollado competencias en:
 - Terminal
 
 ---
+```md
+```txt
+╔══════════════════════════════════════╗
+║   ⚔️  SOFTWARE DEV — SHONEN MODE      ║
+╠══════════════════════════════════════╣
+║   🧠 Analysis + Design + Code         ║
+║   ⚛️ React | 🟢 Node.js | 🐍 Django   ║
+║   🗄️ MySQL | 🔧 Git | ⚡ AI Tools     ║
+╚══════════════════════════════════════╝
 
 ## 🤖 Conocimientos en Inteligencia Artificial
 
@@ -102,5 +111,7 @@ Actualmente me encuentro ampliando mi portafolio con nuevos proyectos que reflej
 Abierto a oportunidades, colaboración y proyectos que representen un reto técnico.
 
 Correo: juansebastianmorabenitez@gmail.com  
+
 GitHub: Juamm-Se
+
 Numero: +57 3227370511
