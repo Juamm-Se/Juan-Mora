@@ -1,6 +1,7 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚡  SYSTEM STATUS: LEARNING • BUILDING • SHIPPING
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<p align="center">
+⚡ <b>SYSTEM STATUS:</b> LEARNING • BUILDING • SHIPPING
+</p>
+
 
 <h1 align="center">Juan Sebastián Mora Benítez</h1>
 
