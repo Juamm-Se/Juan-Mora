@@ -1,3 +1,8 @@
+```md
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡  SYSTEM STATUS: LEARNING • BUILDING • SHIPPING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 <h1 align="center">Juan Sebastián Mora Benítez</h1>
 
 <p align="center">
@@ -76,15 +81,6 @@ Durante mi proceso formativo he desarrollado competencias en:
 - Terminal
 
 ---
-```md
-```txt
-╔══════════════════════════════════════╗
-║   ⚔️  SOFTWARE DEV — SHONEN MODE      ║
-╠══════════════════════════════════════╣
-║   🧠 Analysis + Design + Code         ║
-║   ⚛️ React | 🟢 Node.js | 🐍 Django   ║
-║   🗄️ MySQL | 🔧 Git | ⚡ AI Tools     ║
-╚══════════════════════════════════════╝
 
 ## 🤖 Conocimientos en Inteligencia Artificial
 
