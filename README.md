@@ -79,6 +79,7 @@ Durante mi proceso formativo he desarrollado competencias en:
 - Git & GitHub
 - Visual Studio Code
 - Terminal
+- Antigravity
 
 ---
 
