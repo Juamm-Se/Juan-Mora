@@ -28,10 +28,42 @@ Me interesa construir software **escalable, bien documentado y alineado con las 
 
 ```yaml
 ahora_mismo:
+  practicando:  Desarrollo de software e IA en GroupCOS
   construyendo: SADI — plataforma institucional full stack
   aprendiendo:  arquitectura de software · backend · IA aplicada
   objetivo:     consolidarme como desarrollador backend / full stack
 ```
+
+<br>
+
+## 💼 Experiencia
+
+<table>
+  <tr>
+    <td>
+      <h3>🏢 GroupCOS</h3>
+      <p>
+        <b>Practicante de Desarrollo de Software e Inteligencia Artificial</b><br>
+        <sub>📅 May 2026 – Nov 2026 &nbsp;·&nbsp; Práctica profesional</sub>
+      </p>
+      <p>Empresa latinoamericana de <b>contact center y back office</b> (Customer Operation Success).</p>
+      <ul>
+        <li>Desarrollo de software en un entorno empresarial real, del análisis a la implementación</li>
+        <li>Creación de soluciones de <b>inteligencia artificial</b> para la operación de la empresa</li>
+        <li>Ajuste y configuración de modelos de IA para mejorar sus resultados</li>
+        <li>Trabajo con un stack full stack de frontend, backend y bases de datos</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+        <img src="https://img.shields.io/badge/Inteligencia_Artificial-0f2027?style=flat-square" alt="Inteligencia Artificial" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
