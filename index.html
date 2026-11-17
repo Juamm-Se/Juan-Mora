@@ -1,251 +1,283 @@
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Juan Sebastián Mora · Desarrollador Full Stack</title>
-<meta name="description" content="Juan Sebastián Mora Benítez, Tecnólogo en Análisis y Desarrollo de Software. Desarrollador full stack: aplicaciones web completas potenciadas con inteligencia artificial.">
+<meta name="description" content="Portafolio de Juan Sebastián Mora Benítez, desarrollador full stack junior con enfoque en inteligencia artificial.">
 <meta property="og:title" content="Juan Sebastián Mora · Desarrollador Full Stack">
-<meta property="og:description" content="Aplicaciones web completas, de la idea a la implementación, potenciadas con IA.">
-<meta property="og:image" content="assets/juan.jpg">
-<meta property="og:type" content="website">
+<meta property="og:description" content="Full stack · React, Node.js, Django · Soluciones con IA. Proyectos: Vorágine y SADI.">
+<meta property="og:image" content="https://juamm-se.github.io/Juan-Mora/assets/juan.jpg">
 <meta name="theme-color" content="#0A0C0D">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0C0D'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%235FD9EA'%3EJM%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="styles.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0A0C0D;color:#E8ECEC;font-family:'Inter Tight',system-ui,sans-serif;font-weight:400;overflow-x:hidden}
+a{color:inherit}a:hover{opacity:.85}
+::selection{background:#5FD9EA;color:#0A0C0D}
+.serif{font-family:'Instrument Serif',serif;font-weight:400}
+.mono{font-family:'JetBrains Mono',monospace;font-size:12px}
+.acc{color:#5FD9EA}.dim{color:rgba(232,236,236,.6)}.muted{color:rgba(232,236,236,.72);font-weight:300;line-height:1.65;font-size:15px;margin:0;max-width:640px}
+em.acc,h1 em,h2 em{color:#5FD9EA}
+.wrap{max-width:1320px;margin:0 auto}
+.sec{padding:clamp(80px,11vw,160px) clamp(16px,5vw,72px)}
+.sec+.sec{border-top:1px solid rgba(232,236,236,.08)}
+.label{font-family:'JetBrains Mono',monospace;font-size:13px;color:#5FD9EA}
+.h2{margin:28px 0 64px;font-size:clamp(48px,6.5vw,104px);line-height:.95}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 28px;border-radius:999px;border:1px solid rgba(232,236,236,.3);background:transparent;color:#E8ECEC;text-decoration:none;font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;transition:background .3s,color .3s,border-color .3s}
+.btn.solid{background:#5FD9EA;border-color:#5FD9EA;color:#0A0C0D}
+.btn.line{border-color:#5FD9EA;color:#5FD9EA}
+.btn:hover{opacity:1;background:#E8ECEC;color:#0A0C0D;border-color:#E8ECEC}
+.btn:focus-visible,a:focus-visible{outline:2px solid #5FD9EA;outline-offset:3px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{padding:7px 12px;border-radius:999px;border:1px solid rgba(232,236,236,.22);font-family:'JetBrains Mono',monospace;font-size:12px;color:rgba(232,236,236,.8);transition:border-color .3s,color .3s}
+.tag:hover{border-color:#5FD9EA;color:#5FD9EA}
+/* hero */
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse 50% 60% at 78% 40%,#0F2A30 0%,#0A0C0D 70%)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px clamp(16px,5vw,72px);position:relative;z-index:3}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.brand b{font-family:'Instrument Serif',serif;font-weight:400;font-size:26px;line-height:1}
+.navlinks{display:flex;gap:36px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:rgba(232,236,236,.7)}
+.navlinks a{text-decoration:none}
+.dot{width:8px;height:8px;border-radius:50%;background:#5FD9EA;animation:pulse 1.8s ease-out infinite}
+.hero-grid{display:flex;flex-wrap:wrap;align-items:center;gap:56px 64px;padding:clamp(32px,6vw,80px) clamp(16px,5vw,72px) clamp(64px,8vw,112px);max-width:1440px;margin:0 auto;position:relative;z-index:2}
+.hero-tx{flex:1 1 560px;min-width:0;display:flex;flex-direction:column;gap:32px}
+h1{margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(64px,9vw,148px);line-height:.9;letter-spacing:-.015em;animation:up 1.1s cubic-bezier(.2,.7,.1,1) both}
+.typer{display:flex;align-items:center;gap:14px;min-height:40px;font-family:'JetBrains Mono',monospace;font-size:clamp(15px,1.6vw,19px);color:rgba(232,236,236,.88)}
+#rol{display:inline-block;animation:in .9s cubic-bezier(.2,.7,.1,1) both}
+.caret{display:inline-block;width:10px;height:1.2em;background:#5FD9EA;animation:blink 1s steps(1) infinite}
+.lead{margin:0;max-width:520px;font-size:17px;line-height:1.7;font-weight:300;color:rgba(232,236,236,.75)}
+.photo-col{flex:0 1 440px;min-width:0;position:relative;margin:0 auto;width:100%;max-width:440px}
+.par{transition:transform .8s cubic-bezier(.2,.7,.1,1)}
+.photo{position:relative;border-radius:4px;overflow:hidden;aspect-ratio:4/5;border:1px solid rgba(232,236,236,.14);background:#111517;animation:up 1.1s cubic-bezier(.2,.7,.1,1) both}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block;filter:grayscale(1) contrast(1.06) brightness(.92);transition:filter .8s ease,transform 1.2s cubic-bezier(.2,.7,.1,1)}
+.photo:hover img{filter:none;transform:scale(1.03)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,13,0) 55%,rgba(10,12,13,.75) 100%);pointer-events:none}
+.photo span{position:absolute;left:20px;bottom:18px;z-index:1;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;color:rgba(232,236,236,.8)}
+.card{position:absolute;left:clamp(-56px,-4vw,-16px);bottom:-36px;z-index:3}
+.card pre{margin:0;padding:18px 22px;border-radius:10px;background:rgba(10,12,13,.88);border:1px solid rgba(95,217,234,.35);box-shadow:0 24px 60px rgba(0,0,0,.55);font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.75;color:rgba(232,236,236,.85);white-space:pre}
+/* marquee */
+.marq{overflow:hidden;padding:26px 0;border-top:1px solid rgba(232,236,236,.1);border-bottom:1px solid rgba(232,236,236,.1)}
+.track{display:flex;width:max-content;align-items:center;animation:marquee 45s linear infinite}
+.track div{display:flex;align-items:center;gap:40px;padding-right:40px}
+.track .serif{font-style:italic;font-size:clamp(36px,4.4vw,60px);line-height:1;color:rgba(232,236,236,.82);white-space:nowrap}
+/* about */
+.big{margin:28px 0 88px;font-size:clamp(38px,5vw,80px);line-height:1.04;max-width:1120px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:40px}
+.step{display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid rgba(232,236,236,.16)}
+.step h3{margin:0;font-size:36px;line-height:1}
+.step p{margin:0;font-size:15px;line-height:1.65;font-weight:300;color:rgba(232,236,236,.7)}
+/* jobs */
+.jobs{border-top:1px solid rgba(232,236,236,.22)}
+.job{display:flex;flex-wrap:wrap;gap:24px 48px;padding:44px 12px;border-bottom:1px solid rgba(232,236,236,.12);transition:background .4s}
+.job:hover{background:rgba(95,217,234,.04)}
+.job-meta{flex:0 1 260px;display:flex;flex-direction:column;gap:10px}
+.job-main{flex:1 1 520px;min-width:0;display:flex;flex-direction:column;gap:18px}
+.job-main>div:first-child{display:flex;flex-direction:column;gap:6px}
+.job-co{margin:0;font-size:clamp(36px,3.6vw,52px);line-height:1}
+.job-role{font-size:16px;font-weight:500}
+.job ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;max-width:680px}
+.job li{display:flex;gap:14px;font-size:15px;line-height:1.6;color:rgba(232,236,236,.85)}
+/* projects */
+.proj{display:flex;flex-wrap:wrap;align-items:center;gap:56px 72px;margin-top:40px}
+.proj.rev{flex-direction:row-reverse;margin-top:0}
+.proj-tx{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:24px}
+.proj-tx h2{margin:0;line-height:.85}
+.proj-tx p{margin:0;max-width:520px;font-size:18px;line-height:1.6;font-weight:300;color:rgba(232,236,236,.82)}
+.list{display:flex;flex-direction:column;border-top:1px solid rgba(232,236,236,.14);max-width:540px}
+.list>span{padding:16px 0 6px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:rgba(232,236,236,.6)}
+.nrow{display:flex;gap:16px;align-items:baseline;padding:12px 0;border-bottom:1px solid rgba(232,236,236,.1);font-size:15px;line-height:1.55;color:rgba(232,236,236,.85)}
+.n{flex:none;font-family:'JetBrains Mono',monospace;font-size:11px;color:#5FD9EA}
+.win{flex:1 1 460px;min-width:0;border-radius:12px;border:1px solid rgba(232,236,236,.14);background:#0E1214;box-shadow:0 40px 100px rgba(0,0,0,.5);overflow:hidden}
+.win-bar{display:flex;align-items:center;gap:8px;padding:14px 18px;border-bottom:1px solid rgba(232,236,236,.1)}
+.win-bar span{width:10px;height:10px;border-radius:50%;background:rgba(232,236,236,.2)}
+.win-bar em{margin-left:12px;font-style:normal;font-size:11px;color:rgba(232,236,236,.55)}
+.win-body{display:flex;flex-direction:column;gap:12px;padding:22px}
+.mod{display:flex;align-items:center;gap:18px;padding:20px;border-radius:8px;border:1px solid rgba(232,236,236,.1);background:rgba(232,236,236,.02)}
+.mod-ic{flex:none;width:44px;height:44px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:rgba(95,217,234,.1);color:#5FD9EA}
+.mod-tx{flex:1;display:flex;flex-direction:column;gap:4px;min-width:0}
+.mod-t{font-size:15px;font-weight:500}
+.mod .mono{font-size:11px}
+.pill{font-family:'JetBrains Mono',monospace;font-size:11px;padding:5px 10px;border-radius:999px;border:1px solid rgba(95,217,234,.4);color:#5FD9EA}
+.mod.gold .mod-ic{background:rgba(242,195,139,.1);color:#F2C38B}
+.mod.gold .pill{border-color:rgba(242,195,139,.45);color:#F2C38B}
+/* stack */
+.light{background:#E9EDEC;color:#0D1112}
+.light .label,.light em{color:#0B5F6A}
+.srow{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px 40px;padding:28px 4px;border-bottom:1px solid rgba(13,17,18,.18)}
+.srow h3{margin:0;flex:0 1 300px;font-size:clamp(28px,2.6vw,38px);line-height:1}
+.srow div{flex:1 1 420px;display:flex;flex-wrap:wrap;gap:8px}
+.srow span{padding:8px 14px;border-radius:999px;border:1px solid rgba(13,17,18,.28);font-family:'JetBrains Mono',monospace;font-size:13px}
+.agrid{margin-top:72px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:0 40px}
+.agrid div{display:flex;gap:16px;align-items:baseline;padding:18px 0;border-bottom:1px solid rgba(13,17,18,.14);font-size:16px;line-height:1.5}
+.agrid .n{color:#0B5F6A}
+/* edu + contact */
+.two{display:flex;flex-wrap:wrap;gap:64px}
+.two>div{flex:1 1 420px;min-width:0}
+.deg{padding:28px 0;border-top:1px solid rgba(232,236,236,.22);border-bottom:1px solid rgba(232,236,236,.12);display:flex;flex-direction:column;gap:8px}
+.course{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px;padding:22px 0;border-bottom:1px solid rgba(232,236,236,.12)}
+.course div{display:flex;flex-direction:column;gap:4px}
+.proy{align-self:center;display:flex;flex-direction:column;gap:24px;padding:clamp(32px,4vw,56px);border-radius:12px;border:1px solid rgba(95,217,234,.3);background:rgba(95,217,234,.04)}
+.proy p{margin:0;font-family:'Instrument Serif',serif;font-size:clamp(28px,2.8vw,40px);line-height:1.2}
+.contact{background:radial-gradient(ellipse 60% 80% at 50% 100%,#0F2A30 0%,#0A0C0D 70%);padding:clamp(100px,13vw,200px) clamp(16px,5vw,72px);border-top:1px solid rgba(232,236,236,.08)}
+.contact .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:32px}
+.contact h2{margin:0;font-size:clamp(80px,14vw,220px);line-height:.88}
+.mail{font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(22px,3vw,40px);text-decoration:underline;text-decoration-color:rgba(95,217,234,.6);text-underline-offset:8px;text-decoration-thickness:1px;word-break:break-all}
+.btns{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+footer{padding:32px clamp(16px,5vw,72px);border-top:1px solid rgba(232,236,236,.1);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;font-family:'JetBrains Mono',monospace;font-size:12px;color:rgba(232,236,236,.62)}
+@keyframes in{from{opacity:0;transform:translateY(.4em);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(95,217,234,.6)}100%{box-shadow:0 0 0 10px rgba(95,217,234,0)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes reveal{from{opacity:0;transform:translateY(48px)}to{opacity:1;transform:none}}
+@supports (animation-timeline:view()){.reveal{animation:reveal linear both;animation-timeline:view();animation-range:entry 0% cover 25%}}
+@media (max-width:760px){.navlinks{display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
-
 <header class="hero" id="top">
-  <nav class="nav wrap">
-    <a href="#top" class="brand"><span class="brand-name">Juan Mora</span><span class="mono accent">/dev</span></a>
-    <div class="nav-links">
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#stack">Stack</a>
-    </div>
-    <a class="btn btn-ghost btn-sm" href="#contacto"><span class="pulse" aria-hidden="true"></span>Disponible</a>
-  </nav>
-
-  <div class="hero-grid wrap">
-    <div class="hero-text">
-      <span class="mono accent eyebrow">// Desarrollador de Software Full Stack</span>
-      <h1 class="display up">Juan Sebastián<br><em>Mora</em></h1>
-      <p class="terminal mono" aria-live="polite"><span class="dim">&gt;</span> <span id="role">Desarrollador Full Stack</span><span class="caret" aria-hidden="true"></span></p>
-      <p class="lead">Tecnólogo en Análisis y Desarrollo de Software. Construyo aplicaciones web completas, de la idea a la implementación, y las potencio con soluciones de inteligencia artificial.</p>
-      <div class="actions">
-        <a class="btn btn-primary" href="#proyectos">Ver proyectos
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="btn btn-ghost" href="#contacto">Contactarme</a>
-      </div>
-    </div>
-
-    <div class="hero-media">
-      <div class="par" data-depth="-14">
-        <figure class="photo up">
-          <img src="assets/juan.jpg" alt="Retrato de Juan Sebastián Mora" width="960" height="1200">
-          <figcaption class="mono">JSM — 2026</figcaption>
-        </figure>
-      </div>
-      <div class="code-card par" data-depth="26">
-<pre class="mono"><span class="accent">ahora_mismo</span>:
-  practicando:  <span class="warm">IA en GroupCOS</span>
-  construyendo: <span class="warm">SADI</span>
-  enfoque:      <span class="warm">full stack · IA</span></pre>
-      </div>
-    </div>
-  </div>
+<nav>
+<a class="brand" href="#top"><b>Juan Sebastián Mora</b><span class="mono acc">/dev</span></a>
+<div class="navlinks"><a href="#sobre-mi">Sobre mí</a><a href="#experiencia">Experiencia</a><a href="#proyectos">Proyectos</a><a href="#stack">Stack</a></div>
+<a class="btn" href="#contacto" style="min-height:44px;padding:0 20px;font-size:12px;letter-spacing:.16em"><span class="dot"></span>Disponible · rol junior</a>
+</nav>
+<div class="hero-grid">
+<div class="hero-tx">
+<span class="label">// Desarrollador de Software Full Stack</span>
+<h1>Juan Sebastián<br><em>Mora</em></h1>
+<div class="typer"><span class="dim">&gt;</span><span id="rol">Desarrollador Full Stack</span><span class="caret"></span></div>
+<p class="lead">Tecnólogo en Análisis y Desarrollo de Software. Construyo aplicaciones web completas, de la idea a la implementación, y las potencio con soluciones de inteligencia artificial.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a class="btn solid" href="#proyectos">Ver proyectos <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="btn" href="#contacto">Contactarme</a>
+<a class="btn" href="Hoja_de_vida_Juan_Sebastian_Mora.pdf" download>Descargar CV</a>
+</div>
+</div>
+<div class="photo-col">
+<div class="par" id="p1"><div class="photo"><img src="assets/juan.jpg" alt="Retrato de Juan Sebastián Mora" onerror="this.remove()"><span>JSM — 2026</span></div></div>
+<div class="card"><div class="par" id="p2"><pre><span class="acc">ahora_mismo</span>:
+  buscando:     <span style="color:#F2C38B">rol junior full stack / IA</span>
+  construyendo: <span style="color:#F2C38B">Vorágine</span>
+  enfoque:      <span style="color:#F2C38B">full stack · IA</span></pre></div></div>
+</div>
+</div>
 </header>
 
-<section class="marquee" aria-label="Tecnologías">
-  <div class="marquee-track">
-    <div class="marquee-group">
-      <span>React</span><i>/</i><span>JavaScript</span><i>/</i><span>Node.js</span><i>/</i><span>Python</span><i>/</i><span>Django</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Git</span><i>/</i><span>Inteligencia artificial</span><i>/</i>
-    </div>
-    <div class="marquee-group" aria-hidden="true">
-      <span>React</span><i>/</i><span>JavaScript</span><i>/</i><span>Node.js</span><i>/</i><span>Python</span><i>/</i><span>Django</span><i>/</i><span>PostgreSQL</span><i>/</i><span>Git</span><i>/</i><span>Inteligencia artificial</span><i>/</i>
-    </div>
-  </div>
-</section>
+<section class="marq" aria-label="Tecnologías"><div class="track"><div><span class="serif">React</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">JavaScript</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Three.js</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Node.js</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Python</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Django</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">PostgreSQL</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">MCP</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Inteligencia artificial</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">React</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">JavaScript</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Three.js</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Node.js</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Python</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Django</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">PostgreSQL</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">MCP</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div><div><span class="serif">Inteligencia artificial</span><span class="mono acc" style="font-size:18px" aria-hidden="true">/</span></div></div></section>
 
 <main>
-  <section id="sobre-mi" class="section">
-    <div class="wrap">
-      <span class="mono accent">01 — Sobre mí</span>
-      <h2 class="statement reveal">Me interesa construir <em>software</em> bien pensado, bien documentado y alineado con lo que el usuario realmente necesita.</h2>
-      <div class="cols">
-        <div class="col reveal">
-          <span class="mono accent small">01</span>
-          <h3>Análisis</h3>
-          <p>Levanto y documento requisitos para entender qué necesita realmente el usuario antes de escribir código.</p>
-        </div>
-        <div class="col reveal">
-          <span class="mono accent small">02</span>
-          <h3>Diseño</h3>
-          <p>Modelo el sistema con UML y casos de uso, y diseño la base de datos con normalización.</p>
-        </div>
-        <div class="col reveal">
-          <span class="mono accent small">03</span>
-          <h3>Implementación</h3>
-          <p>Construyo la aplicación completa, de la interfaz a la base de datos, con control de versiones en Git y GitHub.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="sec" id="sobre-mi"><div class="wrap">
+<span class="label">01 — Sobre mí</span>
+<h2 class="serif big reveal">Me interesa construir <em>software</em> bien pensado, bien documentado y alineado con lo que el usuario realmente necesita.</h2>
+<div class="grid3"><div class="step reveal"><span class="mono acc">01</span><h3 class="serif">Análisis</h3><p>Levanto y documento requisitos para entender qué necesita realmente el usuario antes de escribir código.</p></div><div class="step reveal"><span class="mono acc">02</span><h3 class="serif">Diseño</h3><p>Modelo el sistema con UML y casos de uso, y diseño la base de datos con normalización.</p></div><div class="step reveal"><span class="mono acc">03</span><h3 class="serif">Implementación</h3><p>Construyo la aplicación completa, de la interfaz a la base de datos, con control de versiones en Git y GitHub.</p></div></div>
+</div></section>
 
-  <section id="experiencia" class="section bordered">
-    <div class="wrap">
-      <span class="mono accent">02 — Experiencia</span>
-      <h2 class="title reveal">Donde he <em>construido.</em></h2>
-      <div class="rows">
-        <article class="job reveal">
-          <div class="job-meta">
-            <span class="mono dim">2026 — Hoy</span>
-            <span class="mono accent">Cofundador</span>
-          </div>
-          <div class="job-body">
-            <h3>ALTTURA</h3>
-            <span class="role">Coordinador de desarrollo</span>
-            <p>Agencia de marketing digital, contenido, producción audiovisual, páginas web e inteligencia artificial.</p>
-            <ul class="arrows">
-              <li>Desarrollo de sitios web y landing pages para la agencia y sus clientes</li>
-              <li>Soluciones de inteligencia artificial: asistentes y automatizaciones</li>
-              <li>Construcción de la presencia web de VORAGINE, la línea propia de perfumería</li>
-            </ul>
-            <div class="tags"><span>Web</span><span>Landing pages</span><span>IA</span></div>
-          </div>
-        </article>
-        <article class="job reveal">
-          <div class="job-meta">
-            <span class="mono dim">May 2026 — Nov 2026</span>
-            <span class="mono accent">Práctica profesional</span>
-          </div>
-          <div class="job-body">
-            <h3>GroupCOS</h3>
-            <span class="role">Practicante de Desarrollo de Software e Inteligencia Artificial</span>
-            <p>Empresa latinoamericana de contact center y back office (Customer Operation Success).</p>
-            <ul class="arrows">
-              <li>Desarrollo de software en un entorno empresarial real, del análisis a la implementación</li>
-              <li>Creación de soluciones de inteligencia artificial para la operación de la empresa</li>
-              <li>Ajuste y configuración de modelos de IA para mejorar sus resultados</li>
-              <li>Trabajo con un stack full stack de frontend, backend y bases de datos</li>
-            </ul>
-            <div class="tags"><span>Python</span><span>Django</span><span>React</span><span>Node.js</span><span>SQL</span><span>IA</span></div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+<section class="sec" id="experiencia"><div class="wrap">
+<span class="label">02 — Experiencia</span>
+<h2 class="serif h2 reveal">Donde he <em>construido.</em></h2>
+<div class="jobs"><article class="job reveal"><div class="job-meta"><span class="mono dim">2026 — Hoy</span><span class="mono acc">Emprendimiento en formación</span></div>
+<div class="job-main"><div><h3 class="serif job-co">ALTTURA</h3><span class="job-role">Cofundador · Coordinador de desarrollo</span></div>
+<p class="muted">Proyecto de agencia de marketing digital, páginas web e inteligencia artificial, hoy en etapa de construcción.</p><ul><li><span class="acc mono" aria-hidden="true">→</span><span>Lanzamos primero Vorágine, la línea propia de perfumería, como producto real que respalde a la agencia</span></li><li><span class="acc mono" aria-hidden="true">→</span><span>Diseño y desarrollo completo del catálogo web de Vorágine</span></li><li><span class="acc mono" aria-hidden="true">→</span><span>Maqueta del sitio web de la agencia y definición de sus servicios, incluidos los de IA</span></li></ul>
+<div class="tags"><span class="tag">Web</span><span class="tag">Producto</span><span class="tag">IA</span></div></div></article><article class="job reveal"><div class="job-meta"><span class="mono dim">May 2026 — 7 Nov 2026</span><span class="mono acc">Práctica profesional · finalizada</span></div>
+<div class="job-main"><div><h3 class="serif job-co">GroupCOS</h3><span class="job-role">Practicante de Desarrollo de Software e Inteligencia Artificial</span></div>
+<p class="muted">Empresa latinoamericana de contact center y back office (Customer Operation Success).</p><ul><li><span class="acc mono" aria-hidden="true">→</span><span>Desarrollo de software en un entorno empresarial real, del análisis a la implementación</span></li><li><span class="acc mono" aria-hidden="true">→</span><span>Creación de soluciones de inteligencia artificial para la operación de la empresa</span></li><li><span class="acc mono" aria-hidden="true">→</span><span>Ajuste y configuración de modelos de IA para mejorar sus resultados</span></li><li><span class="acc mono" aria-hidden="true">→</span><span>Trabajo con un stack full stack de frontend, backend y bases de datos</span></li></ul>
+<div class="tags"><span class="tag">Python</span><span class="tag">Django</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">SQL</span><span class="tag">IA</span></div></div></article></div>
+</div></section>
 
-  <section id="proyectos" class="section glow-left">
-    <div class="wrap">
-      <span class="mono accent">03 — Proyecto destacado</span>
-      <div class="project">
-        <div class="project-text reveal">
-          <h2 class="project-name">SADI</h2>
-          <p class="lead">Plataforma institucional full stack para control de acceso, gestión de turnos y auditoría de activos tecnológicos.</p>
-          <div class="list">
-            <span class="list-label">Mi aporte</span>
-            <div><span class="mono accent">01</span>Frontend en React e integración cliente-servidor</div>
-            <div><span class="mono accent">02</span>Servicios backend con Node.js / Express y lógica del sistema en Django</div>
-            <div><span class="mono accent">03</span>Diseño e implementación de la base de datos relacional</div>
-            <div><span class="mono accent">04</span>Levantamiento de requisitos y análisis funcional</div>
-            <div><span class="mono accent">05</span>Control de versiones con Git y GitHub</div>
-          </div>
-          <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>Django</span><span>SQL</span></div>
-          <a class="btn btn-outline" href="https://github.com/Gabriel39807/S.A.D.I" target="_blank" rel="noopener">Ver en GitHub
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-          </a>
-        </div>
-        <div class="panel reveal" aria-hidden="true">
-          <div class="panel-bar"><i></i><i></i><i></i><span class="mono">sadi / panel</span></div>
-          <div class="panel-body">
-            <div class="module">
-              <div class="module-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3M5 11h14v10H5z"/></svg></div>
-              <div class="module-text"><span>Control de acceso</span><span class="mono">/acceso</span></div>
-              <span class="mono pill">React</span>
-            </div>
-            <div class="module">
-              <div class="module-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v4M16 3v4M4 9h16M4 5h16v16H4z"/></svg></div>
-              <div class="module-text"><span>Gestión de turnos</span><span class="mono">/turnos</span></div>
-              <span class="mono pill">Express</span>
-            </div>
-            <div class="module">
-              <div class="module-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v10H4zM9 20h6M12 16v4"/></svg></div>
-              <div class="module-text"><span>Auditoría de activos</span><span class="mono">/auditoria</span></div>
-              <span class="mono pill">Django</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="sec" id="proyectos" style="background:radial-gradient(ellipse 50% 60% at 20% 50%,#0F2A30 0%,#0A0C0D 70%)"><div class="wrap">
+<span class="label">03 — Proyectos</span>
+<div class="proj">
+<div class="proj-tx reveal">
+<span class="mono dim">Proyecto en equipo</span>
+<h2 class="serif" style="font-size:clamp(88px,12vw,180px);letter-spacing:.02em">SADI</h2>
+<p>Plataforma institucional full stack para control de acceso, gestión de turnos y auditoría de activos tecnológicos.</p>
+<div class="list"><span>Mi aporte</span><div class="nrow"><span class="n">01</span><span>Frontend en React e integración cliente-servidor</span></div><div class="nrow"><span class="n">02</span><span>Servicios backend con Node.js / Express y lógica del sistema en Django</span></div><div class="nrow"><span class="n">03</span><span>Diseño e implementación de la base de datos relacional</span></div><div class="nrow"><span class="n">04</span><span>Levantamiento de requisitos y análisis funcional</span></div><div class="nrow"><span class="n">05</span><span>Control de versiones con Git y GitHub</span></div></div>
+<div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Django</span><span class="tag">SQL</span></div>
+<a class="btn line" style="align-self:flex-start" href="https://github.com/Gabriel39807/S.A.D.I">Ver en GitHub <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</div>
+<div class="win reveal" aria-hidden="true"><div class="win-bar"><span></span><span></span><span></span><em class="mono">sadi / panel</em></div>
+<div class="win-body"><div class="mod"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3M5 11h14v10H5z"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Control de acceso</span><span class="mono dim">/acceso</span></div><span class="pill">React</span></div><div class="mod"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v4M16 3v4M4 9h16M4 5h16v16H4z"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Gestión de turnos</span><span class="mono dim">/turnos</span></div><span class="pill">Express</span></div><div class="mod"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v10H4zM9 20h6M12 16v4"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Auditoría de activos</span><span class="mono dim">/auditoria</span></div><span class="pill">Django</span></div></div></div>
+</div>
+</div></section>
 
-  <section id="stack" class="section light">
-    <div class="wrap">
-      <span class="mono accent-dark">04 — Stack y análisis</span>
-      <h2 class="title reveal">Con qué <em>trabajo.</em></h2>
-      <div class="stack">
-        <div class="stack-row reveal"><h3>Frontend</h3><div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span></div></div>
-        <div class="stack-row reveal"><h3>Backend</h3><div class="chips"><span>Node.js</span><span>Express</span><span>Python</span><span>Django</span></div></div>
-        <div class="stack-row reveal"><h3>Bases de datos</h3><div class="chips"><span>MySQL</span><span>PostgreSQL</span><span>Modelado relacional</span></div></div>
-        <div class="stack-row reveal"><h3>Herramientas</h3><div class="chips"><span>Git &amp; GitHub</span><span>VS Code</span><span>Antigravity</span><span>XAMPP</span><span>Terminal</span></div></div>
-      </div>
-      <div class="analysis">
-        <div class="reveal"><span class="mono accent-dark">01</span>Levantamiento y documentación de requisitos</div>
-        <div class="reveal"><span class="mono accent-dark">02</span>Modelado de sistemas (UML, casos de uso)</div>
-        <div class="reveal"><span class="mono accent-dark">03</span>Diseño de bases de datos y normalización</div>
-        <div class="reveal"><span class="mono accent-dark">04</span>Análisis funcional</div>
-        <div class="reveal"><span class="mono accent-dark">05</span>Ciclo de vida del desarrollo de software</div>
-        <div class="reveal"><span class="mono accent-dark">06</span>Planificación y estructuración de proyectos</div>
-      </div>
-    </div>
-  </section>
+<section class="sec" id="voragine"><div class="wrap">
+<div class="proj rev">
+<div class="proj-tx reveal">
+<span class="mono dim">Proyecto individual · 2026</span>
+<h2 class="serif" style="font-size:clamp(72px,10vw,150px)">Vorágine</h2>
+<p>Catálogo web interactivo con vitrina 3D para la línea de perfumería de ALTTURA: el cliente explora, filtra y cotiza por WhatsApp desde el celular.</p>
+<div class="list"><span>Lo que construí</span><div class="nrow"><span class="n">01</span><span>Vitrina 3D en el navegador con Three.js (WebGL): se gira con gestos, mouse o teclado</span></div><div class="nrow"><span class="n">02</span><span>Catálogo de 543 referencias con buscador por perfume, marca o nota y autocompletado</span></div><div class="nrow"><span class="n">03</span><span>Filtros por familia olfativa, concentración y público, y ficha con pirámide olfativa</span></div><div class="nrow"><span class="n">04</span><span>Pedido de varios productos que arma el mensaje de cotización y lo envía por WhatsApp</span></div><div class="nrow"><span class="n">05</span><span>Guía “Encontrar mi perfume”, diseño responsive para celular y navegación accesible con teclado</span></div></div>
+<div class="tags"><span class="tag">JavaScript</span><span class="tag">Three.js</span><span class="tag">WebGL</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">UX móvil</span></div>
+<a class="btn line" style="align-self:flex-start" href="https://voraginebyalttura.com">Ver en vivo <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</div>
+<div class="win reveal" aria-hidden="true"><div class="win-bar"><span></span><span></span><span></span><em class="mono">voragine / vitrina</em></div>
+<div class="win-body"><div class="mod gold"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9zM12 12l8-4.5M12 12v9M12 12 4 7.5"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Vitrina 3D</span><span class="mono dim">/orbita</span></div><span class="pill">Three.js</span></div><div class="mod gold"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-3.5-3.5"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Buscador y filtros</span><span class="mono dim">/catalogo · 543 refs</span></div><span class="pill">JS</span></div><div class="mod gold"><div class="mod-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8zM9 8V6a3 3 0 0 1 6 0v2"/></svg></div>
+<div class="mod-tx"><span class="mod-t">Pedido y cotización</span><span class="mono dim">/pedido → WhatsApp</span></div><span class="pill">JS</span></div></div></div>
+</div>
+</div></section>
 
-  <section class="section">
-    <div class="wrap split">
-      <div class="split-col">
-        <span class="mono accent">05 — Formación</span>
-        <h2 class="title reveal">Aprendiendo <em>siempre.</em></h2>
-        <div class="degree reveal">
-          <span class="mono dim small">Título</span>
-          <span class="degree-name">Tecnólogo en Análisis y Desarrollo de Software</span>
-        </div>
-        <div class="course reveal"><div><strong>Introducción al Desarrollo de Chatbots</strong><span>SENA</span></div><span class="mono accent small">Dic 2025</span></div>
-        <div class="course reveal"><div><strong>Fundamentos de Copilot</strong><span>Nimbutech</span></div><span class="mono accent small">Oct 2025</span></div>
-        <div class="course reveal"><div><strong>Aspectos Básicos del Desarrollo Web</strong><span>IBM SkillsBuild</span></div><span class="mono accent small">Ago 2024</span></div>
-      </div>
-      <div class="split-col vision reveal">
-        <span class="mono accent">Proyección</span>
-        <p>Busco consolidarme como <em>desarrollador full stack</em>, construyendo productos completos con bases sólidas en análisis y en integración con IA.</p>
-      </div>
-    </div>
-  </section>
+<section class="sec light" id="stack"><div class="wrap">
+<span class="label">04 — Stack y análisis</span>
+<h2 class="serif h2 reveal">Con qué <em>trabajo.</em></h2>
+<div style="border-top:1px solid #0D1112"><div class="srow reveal"><h3 class="serif">Frontend</h3><div><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Three.js</span></div></div><div class="srow reveal"><h3 class="serif">Backend</h3><div><span>Node.js</span><span>Express</span><span>Python</span><span>Django</span></div></div><div class="srow reveal"><h3 class="serif">Bases de datos</h3><div><span>MySQL</span><span>PostgreSQL</span><span>Modelado relacional</span></div></div><div class="srow reveal"><h3 class="serif">Inteligencia artificial</h3><div><span>Claude</span><span>Gemini</span><span>MCP</span><span>Voz a texto (STT)</span><span>Texto a voz (TTS)</span><span>Modelos locales con OpenCode</span></div></div><div class="srow reveal"><h3 class="serif">Herramientas</h3><div><span>Git &amp; GitHub</span><span>APIs REST</span><span>Antigravity</span><span>OpenCode</span></div></div></div>
+<div class="agrid"><div class="reveal"><span class="n">01</span><span>Levantamiento y documentación de requisitos</span></div><div class="reveal"><span class="n">02</span><span>Modelado de sistemas (UML, casos de uso)</span></div><div class="reveal"><span class="n">03</span><span>Diseño de bases de datos y normalización</span></div><div class="reveal"><span class="n">04</span><span>Análisis funcional</span></div><div class="reveal"><span class="n">05</span><span>Ciclo de vida del desarrollo de software</span></div><div class="reveal"><span class="n">06</span><span>Planificación y estructuración de proyectos</span></div></div>
+</div></section>
 
-  <section id="contacto" class="section contact">
-    <div class="wrap center">
-      <span class="mono accent">06 — Contacto</span>
-      <h2 class="huge reveal">Hablemos<em>.</em></h2>
-      <p class="lead">Abierto a oportunidades, colaboraciones y proyectos que representen un reto técnico.</p>
-      <a class="mail" href="mailto:juansebastianmorabenitez@gmail.com">juansebastianmorabenitez@gmail.com</a>
-      <div class="actions center">
-        <a class="btn btn-primary" href="https://wa.me/573227370511" target="_blank" rel="noopener">WhatsApp</a>
-        <a class="btn btn-ghost" href="https://github.com/Juamm-Se" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </section>
+<section class="sec"><div class="wrap two">
+<div>
+<span class="label">05 — Formación</span>
+<h2 class="serif reveal" style="margin:28px 0 40px;font-size:clamp(44px,5vw,80px);line-height:.95">Aprendiendo <em>siempre.</em></h2>
+<div class="deg reveal"><span class="mono dim">Título</span><span class="serif" style="font-size:32px;line-height:1.1">Tecnólogo en Análisis y Desarrollo de Software</span></div>
+<div class="course reveal"><div><span style="font-size:17px;font-weight:500">Introducción al Desarrollo de Chatbots</span><span style="font-size:14px;color:rgba(232,236,236,.62)">SENA</span></div><span class="mono acc">Dic 2025</span></div><div class="course reveal"><div><span style="font-size:17px;font-weight:500">Fundamentos de Copilot</span><span style="font-size:14px;color:rgba(232,236,236,.62)">Nimbutech</span></div><span class="mono acc">Oct 2025</span></div><div class="course reveal"><div><span style="font-size:17px;font-weight:500">Aspectos Básicos del Desarrollo Web</span><span style="font-size:14px;color:rgba(232,236,236,.62)">IBM SkillsBuild</span></div><span class="mono acc">Ago 2024</span></div>
+</div>
+<div class="proy reveal"><span class="label">Proyección</span><p>Busco consolidarme como <em class="acc">desarrollador full stack</em>, construyendo productos completos con bases sólidas en análisis y en integración con IA.</p></div>
+</div></section>
 </main>
 
-<footer class="footer wrap mono">
-  <span>© <span id="year">2026</span> Juan Sebastián Mora Benítez</span>
-  <span>+57 322 737 0511</span>
-  <span>Learning · Building · Shipping</span>
-</footer>
+<section class="contact" id="contacto"><div class="wrap">
+<span class="label">06 — Contacto</span>
+<h2 class="serif reveal">Hablemos<em>.</em></h2>
+<p class="lead" style="max-width:540px;font-size:18px">Abierto a oportunidades, colaboraciones y proyectos que representen un reto técnico.</p>
+<a class="mail" href="mailto:juansebastianmorabenitez@gmail.com">juansebastianmorabenitez@gmail.com</a>
+<div class="btns">
+<a class="btn solid" href="https://wa.me/573227370511">WhatsApp</a>
+<a class="btn" href="https://www.linkedin.com/in/juan-sebastian-mora-benitez-a685213b9">LinkedIn</a>
+<a class="btn" href="https://github.com/Juamm-Se">GitHub</a>
+<a class="btn" href="Hoja_de_vida_Juan_Sebastian_Mora.pdf" download>CV en PDF</a>
+</div>
+</div></section>
 
-<script src="main.js"></script>
+<footer><span>© 2026 Juan Sebastián Mora Benítez</span><span>+57 322 737 0511</span><span>Learning · Building · Shipping</span></footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var roles = ['Desarrollador Full Stack','Análisis · Diseño · Código','Soluciones con IA','Learning · Building · Shipping'];
+  var el = document.getElementById('rol'), i = 0;
+  if (!reduce) setInterval(function(){
+    i = (i + 1) % roles.length;
+    var n = el.cloneNode(false); n.textContent = roles[i];
+    el.parentNode.replaceChild(n, el); el = n;
+  }, 2600);
+  var hero = document.querySelector('.hero'), p1 = document.getElementById('p1'), p2 = document.getElementById('p2');
+  if (!reduce && hero) {
+    hero.addEventListener('mousemove', function(e){
+      var b = hero.getBoundingClientRect(), mx = (e.clientX-b.left)/b.width-.5, my = (e.clientY-b.top)/b.height-.5;
+      p1.style.transform = 'translate('+(-mx*14)+'px,'+(-my*10)+'px)';
+      p2.style.transform = 'translate('+(mx*26)+'px,'+(my*18)+'px)';
+    });
+    hero.addEventListener('mouseleave', function(){ p1.style.transform = p2.style.transform = ''; });
+  }
+})();
+</script>
 </body>
 </html>

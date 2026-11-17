@@ -10,7 +10,9 @@
 <p align="center">
   <a href="mailto:juansebastianmorabenitez@gmail.com"><img src="https://img.shields.io/badge/Email-0f2027?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
   <a href="https://wa.me/573227370511"><img src="https://img.shields.io/badge/WhatsApp-0f2027?style=for-the-badge&logo=whatsapp&logoColor=22D3EE" alt="WhatsApp" /></a>
-  <a href="https://github.com/Juamm-Se"><img src="https://img.shields.io/badge/GitHub-0f2027?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/juan-sebastian-mora-benitez-a685213b9"><img src="https://img.shields.io/badge/LinkedIn-0f2027?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
+  <a href="https://juamm-se.github.io/Juan-Mora/"><img src="https://img.shields.io/badge/Portafolio-0f2027?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portafolio" /></a>
+  <a href="Hoja_de_vida_Juan_Sebastian_Mora.pdf"><img src="https://img.shields.io/badge/CV_en_PDF-0f2027?style=for-the-badge&logo=adobeacrobatreader&logoColor=22D3EE" alt="CV en PDF" /></a>
   <img src="https://img.shields.io/badge/Abierto_a_oportunidades-2c5364?style=for-the-badge&logoColor=white" alt="Abierto a oportunidades" />
 </p>
 
@@ -28,10 +30,10 @@ Me interesa construir software **escalable, bien documentado y alineado con las 
 
 ```yaml
 ahora_mismo:
-  practicando:  Desarrollo de software e IA en GroupCOS
-  construyendo: SADI — plataforma institucional full stack
-  aprendiendo:  arquitectura de software · backend · IA aplicada
-  objetivo:     consolidarme como desarrollador backend / full stack
+  buscando:     rol junior full stack / IA
+  construyendo: Vorágine — catálogo web con vitrina 3D
+  enfoque:      full stack · IA aplicada (LLMs, MCP, voz)
+  objetivo:     consolidarme como desarrollador full stack
 ```
 
 <br>
@@ -44,7 +46,7 @@ ahora_mismo:
       <h3>🏢 GroupCOS</h3>
       <p>
         <b>Practicante de Desarrollo de Software e Inteligencia Artificial</b><br>
-        <sub>📅 May 2026 – Nov 2026 &nbsp;·&nbsp; Práctica profesional</sub>
+        <sub>📅 May 2026 – 7 Nov 2026 &nbsp;·&nbsp; Práctica profesional finalizada</sub>
       </p>
       <p>Empresa latinoamericana de <b>contact center y back office</b> (Customer Operation Success).</p>
       <ul>
@@ -63,16 +65,55 @@ ahora_mismo:
       </p>
     </td>
   </tr>
+  <tr>
+    <td>
+      <h3>🌱 ALTTURA</h3>
+      <p>
+        <b>Cofundador · Coordinador de desarrollo</b><br>
+        <sub>📅 2026 – Actual &nbsp;·&nbsp; Emprendimiento en formación</sub>
+      </p>
+      <p>Proyecto de agencia de marketing digital, páginas web e inteligencia artificial, hoy en etapa de construcción.</p>
+      <ul>
+        <li>Lanzamos primero <b>Vorágine</b>, la línea propia de perfumería, como producto real que respalde a la agencia</li>
+        <li>Diseño y desarrollo completo del catálogo web de Vorágine</li>
+        <li>Maqueta del sitio web de la agencia y definición de sus servicios, incluidos los de IA</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <br>
 
-## 🚀 Proyecto destacado
+## 🚀 Proyectos
 
 <table>
   <tr>
     <td>
-      <h3>🖥️ <a href="https://github.com/Gabriel39807/S.A.D.I">SADI</a></h3>
+      <h3>🌀 <a href="https://voraginebyalttura.com">Vorágine</a> <sub>· proyecto individual</sub></h3>
+      <p>Catálogo web interactivo con <b>vitrina 3D</b> para la línea de perfumería de ALTTURA: el cliente explora, filtra y cotiza por WhatsApp desde el celular.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-20232A?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+        <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      </p>
+      <ul>
+        <li>Vitrina 3D en el navegador con Three.js: se gira con gestos, mouse o teclado</li>
+        <li>Catálogo de 543 referencias con buscador por perfume, marca o nota y autocompletado</li>
+        <li>Filtros por familia olfativa, concentración y público, y ficha con pirámide olfativa</li>
+        <li>Pedido de varios productos que arma la cotización y la envía por WhatsApp</li>
+        <li>Diseño responsive para celular y navegación accesible con teclado</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <h3>🖥️ <a href="https://github.com/Gabriel39807/S.A.D.I">SADI</a> <sub>· proyecto en equipo</sub></h3>
       <p>Plataforma institucional full stack para <b>control de acceso</b>, <b>gestión de turnos</b> y <b>auditoría de activos tecnológicos</b>.</p>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
@@ -98,16 +139,17 @@ ahora_mismo:
 ## 🛠️ Stack tecnológico
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express&theme=dark" alt="Frontend y Node" /><br>
-  <img src="https://skillicons.dev/icons?i=python,django,mysql,postgres,git,github,vscode&theme=dark" alt="Backend, bases de datos y herramientas" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,threejs,nodejs,express&theme=dark" alt="Frontend y Node" /><br>
+  <img src="https://skillicons.dev/icons?i=python,django,mysql,postgres,git,github&theme=dark" alt="Backend, bases de datos y herramientas" />
 </p>
 
 | Área | Tecnologías |
 |:--|:--|
-| **Frontend** | HTML5 · CSS3 · JavaScript · React |
-| **Backend** | Node.js · Express · Python · Django |
+| **Frontend** | HTML5 · CSS3 · JavaScript · React · Three.js |
+| **Backend** | Node.js · Express · Python · Django · APIs REST |
 | **Bases de datos** | MySQL · PostgreSQL · Modelado relacional |
-| **Herramientas** | Git & GitHub · VS Code · Antigravity · XAMPP · Terminal |
+| **Inteligencia artificial** | Claude · Gemini · MCP · Voz a texto (STT) · Texto a voz (TTS) · Modelos locales con OpenCode |
+| **Herramientas** | Git & GitHub · Antigravity · OpenCode |
 
 <br>
 
@@ -142,7 +184,7 @@ ahora_mismo:
 
 ## 🎯 Proyección
 
-Busco consolidarme como desarrollador con una base sólida en **análisis, arquitectura y backend**, sin dejar de fortalecer el frontend y la integración con tecnologías emergentes como la **inteligencia artificial**. Actualmente amplío mi portafolio con nuevos proyectos que reflejen ese crecimiento.
+Busco consolidarme como **desarrollador full stack**, construyendo productos completos con bases sólidas en **análisis** y en integración con **inteligencia artificial**.
 
 <br>
 
